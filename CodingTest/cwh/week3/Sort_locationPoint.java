@@ -29,6 +29,10 @@ public class Sort_locationPoint {
 		  *		1 -1					3 3
 		  *		2 2						3 4
 		  *		3 3
+		  *
+		  *		
+		  *		# 현재 풀이 방법은 버블정렬을 사용한 풀이 방법인것같음. >> 다른 정렬방식을 사용한 풀이도 해볼것. 2021.04.15 CHOIWONHYEOK
+		  *
 		  **/
 		Scanner scn = new Scanner(System.in);
 		int cnt = scn.nextInt();
