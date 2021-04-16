@@ -27,6 +27,7 @@ public class SortBubble {
 			}
 		}
 		
+		
 		for(int a=0; a<num; a++) {
 			System.out.print(compareNum[a] + " ");
 		}
