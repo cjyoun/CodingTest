@@ -31,7 +31,7 @@ public class SortLocation {
 					xtemp = xSpot[j+1];
 					xSpot[j+1] = xSpot[j];
 					xSpot[j]=xtemp;
-				} else if(ySpot[j]==ySpot[j+1] && xSpot[j]==xSpot[j+1]) {
+				} else if(ySpot[j]==ySpot[j+1] && xSpot[j]>xSpot[j+1]) {
 					ytemp = ySpot[j+1];
 					ySpot[j+1] = ySpot[j];
 					ySpot[j]=ytemp;
