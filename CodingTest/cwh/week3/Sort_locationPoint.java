@@ -99,14 +99,19 @@ public class Sort_locationPoint {
 					}
 				}
 			}
-			for(int l=0; l<cnt; l++) {
-				System.out.println(inputX[l]+" "+inputY[l]);
-			}
+			
+			printFnc(inputX, inputY, cnt);
 			
 		}else {
 			System.out.println("최소 2개의 좌표는 입력해야 정렬이 가능합니다.");
 			scn.close();
 		}
+	}
+	
+	public static void printFnc(int[] inputX, int[] inputY, int cnt) {
+		for(int l=0; l<cnt; l++) {
+        	System.out.println(inputX[l]+" "+inputY[l]);
+        }
 	}
 
 }
